@@ -1,0 +1,30 @@
+import SectionCard from '../components/SectionCard';
+
+export default function Home() {
+  return (
+    <main className="home">
+      <section className="intro">
+        <h1>Ali Khan</h1>
+        <p>
+          Full-stack developer and tech enthusiast passionate about accessibility, AI, and innovation.
+        </p>
+      </section>
+
+      <SectionCard
+        title="Education"
+        summary="University of Toronto (2025–2029), Computer Engineering"
+        to="/education"
+      />
+      <SectionCard
+        title="Experiences"
+        summary="LGT, STEM Club, Developers Club, eSports — community & leadership roles"
+        to="/experiences"
+      />
+      <SectionCard
+        title="Projects"
+        summary="8+ major projects from React to Arduino, Python, and C#"
+        to="/projects"
+      />
+    </main>
+  );
+}
