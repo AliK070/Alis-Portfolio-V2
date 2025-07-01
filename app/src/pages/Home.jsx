@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <main className="home">
       <section className="intro">
+      
         <h1>Ali Khan</h1>
         <p>
           Full-stack developer and tech enthusiast passionate about accessibility, AI, and innovation.
@@ -12,7 +13,7 @@ export default function Home() {
 
       <SectionCard
         title="Education"
-        summary="University of Toronto (2025–2029), Computer Engineering"
+        summary="University of Toronto (2025–2029), Computer Science"
         to="/education"
       />
       <SectionCard
@@ -21,7 +22,7 @@ export default function Home() {
         to="/experiences"
       />
       <SectionCard
-        title="Projects"
+        title="Personal Projects"
         summary="8+ major projects from React to Arduino, Python, and C#"
         to="/projects"
       />

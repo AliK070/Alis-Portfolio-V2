@@ -5,54 +5,58 @@ import BackButton from '../components/BackButton';
 
 export default function Projects() {
   const projects = [
+
     {
-      title: 'LGT Web Portal',
-      description: 'Full-stack system with donor tracking, QGIS mapping, and PostgreSQL database.',
-      icon: '/icons/react.svg',
-      link: 'https://github.com/yourusername/lgt-web-portal',
+      title: 'Personal Portfolio',
+      description:
+        'Modern personal portfolio built with React and Vite, featuring a document-style layout with expandable sections for About Me, Education, Experiences, and Projects. Designed with a clean, minimal aesthetic and responsive card-based navigation.',
+      languages: ['react', 'vitejs', 'javascript', 'html5', 'css3'],
+      link: 'https://github.com/AliK070/ESP32-WiFI-Controlled-Car',
+    },
+
+    {
+
+      title: 'ESP32 WiFI Controlled Car',
+      description:
+        'Used ESP32 to build a WiFi-controlled car, applying my Arduino and motor knowledge. Although ESP32 has a steeper learning curve than Arduino, it’s a far superior MCU to the ATmega328.',
+      languages: ['arduino', 'cplusplus', 'html5'],
+      link: 'https://github.com/AliK070/ESP32-WiFI-Controlled-Car',
     },
     {
-      title: 'Wordle Clone',
-      description: 'C# WinForms clone of the popular Wordle game with logic and scoring.',
-      icon: '/icons/csharp.svg',
-      link: 'https://github.com/yourusername/wordle-clone',
+      title: 'Motor Control with OpenCV',
+      description: 'Controlled motor speed using hand tracking with OpenCV, measuring the distance between thumb and pinky tips. Used Python with PyFirmata2 to send PWM signals to an Arduino, adjusting motor power proportionally to hand movement.',
+      languages: ['arduino','python', 'opencv'],
+      link: 'https://github.com/AliK070/Motor-Control-With-OpenCV',
     },
     {
-      title: '3D FPS Game',
-      description: 'Multiplayer shooter with time travel mechanics built using Ursina (Python).',
-      icon: '/icons/python.svg',
-      link: 'https://github.com/yourusername/3d-fps-game',
+      title: 'Flat Notes',
+      description: 'Minimal sticky note app for to-dos, reminders, and quick notes. Built with Electron, HTML, CSS, and JS. Inspired by my portfolio design, it helped kickstart my journey into JavaScript.',
+      icon: 'python',
+      languages: ['javascript', 'html5', 'css3', 'electron'],
+      link: 'https://github.com/AliK070/Flat-Notes',
     },
     {
-      title: 'IoT BLE Motor Control',
-      description: 'Arduino R4 project to control motors via Bluetooth Low Energy.',
-      icon: '/icons/arduino.svg',
+      title: 'WinForm Projects',
+      description: 'Personal and academic WinForms projects built in C#, ranging from simple app clones to more complex applications and games. A hands-on way to explore core programming concepts and UI design.',
+      icon: 'arduino',
+      languages: ['csharp', 'dotnetcore'],
       link: 'https://github.com/yourusername/iot-ble-motor-control',
     },
     {
-      title: 'Portfolio Website',
-      description: 'Minimal React portfolio with document-style layout and dark mode.',
-      icon: '/icons/react.svg',
+      title: 'Nano Pong',
+      description: 'OLED Pong demo with Arduino Nano using the U8g2 graphics library. Two-button input controls a paddle while a bouncing ball follows basic physics and collision logic. The project challenged me to understand object motion and screen boundaries. A fun test of small displays—though I’d opt for a slightly larger screen next time.',
+      icon: 'react',
+      languages: ['arduino', 'cplusplus'],
       link: 'https://github.com/yourusername/portfolio-site',
     },
     {
-      title: 'Game Jam Puzzle',
-      description: 'Unity-based puzzle platformer created in 72 hours for a student jam.',
-      icon: '/icons/csharp.svg',
-      link: 'https://github.com/yourusername/game-jam',
+      title: 'Discriminant Calculator',
+      description: 'Simple discriminant calculator using the quadratic formula variables (a, b, c). Easily run the script or use the downloadable executable from the releases. Made in .NET Core and WinForms.',
+      icon: 'csharp',
+      languages: ['csharp', 'dotnetcore'],
+      link: 'https://github.com/AliK070/Discriminant-Calculator',
     },
-    {
-      title: 'Smart Home BLE App',
-      description: 'Arduino + mobile BLE dashboard for controlling LED and servo systems.',
-      icon: '/icons/arduino.svg',
-      link: 'https://github.com/yourusername/smart-home-ble',
-    },
-    {
-      title: 'Data Visualizer',
-      description: 'Python data visualizer with pandas/matplotlib for CSV analysis.',
-      icon: '/icons/python.svg',
-      link: 'https://github.com/yourusername/data-visualizer',
-    },
+   
   ];
 
   return (

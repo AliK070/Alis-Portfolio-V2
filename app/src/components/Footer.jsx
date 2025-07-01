@@ -5,6 +5,7 @@ import {
   faLinkedin,
   faYoutube,
   faDiscord,
+  faGithub,
 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
@@ -26,24 +27,29 @@ export default function Footer() {
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
+
+
+
           <a
-            href="https://www.youtube.com/@alik070"
+            href="https://github.com/AliK070"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Github"
+          >
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+
+          <a
+            href="https://www.youtube.com/@ak0tecforge"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="YouTube"
           >
             <FontAwesomeIcon icon={faYoutube} />
           </a>
+         
           <a
-            href="https://discord.com/users/yourdiscordid"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Discord"
-          >
-            <FontAwesomeIcon icon={faDiscord} />
-          </a>
-          <a
-            href="mailto:your.email@example.com"
+            href="mailto:alikhanpro60@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Email"

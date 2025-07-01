@@ -9,6 +9,8 @@ import './styles/global.css';
 import './styles/variables.css';
 
 export default function App() {
+
+  
   return (
     <Router>
       <Navbar />

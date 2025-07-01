@@ -3,15 +3,15 @@
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: 0 6px 18px rgba(0,0,0,0.25);
-  text-align: center;
   color: var(--text-primary);
   text-decoration: none;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  aspect-ratio: 1 / 1;
+ /* aspect-ratio: 1 / 1; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between; /* push footer down */
+  align-items: flex-start; /* left align content */
+  text-align: left;
 }
 
 .project-card:hover {
@@ -19,20 +19,58 @@
   box-shadow: 0 10px 24px var(--accent);
 }
 
-.project-icon img {
-  width: 64px;
-  height: 64px;
-  margin-bottom: 1rem;
-}
-
 .project-card h3 {
   font-size: 1.2rem;
   color: var(--accent);
-  margin: 0.5rem 0;
+  margin: 0 0 0.5rem 0;
+  width: 100%;
 }
 
 .project-card p {
   color: var(--text-muted);
   font-size: 0.95rem;
   line-height: 1.4;
+  flex-grow: 1; /* take available space */
+  width: 100%;
+}
+
+/* Footer with language icons */
+.project-languages {
+  border-top: 1px solid var(--accent);
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  display: flex;
+  gap: 0.6rem;
+  font-size: 1.3rem;
+  color: var(--accent);
+  justify-content: flex-start; /* left align icons */
+  width: 100%;
+}
+
+.project-languages i {
+  vertical-align: middle;
+}
+
+.lang-icon-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin: 0 4px;
+}
+
+.lang-icon-wrapper i {
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Show original only if plain doesn't exist (assumes order) */
+.lang-icon-wrapper i + i {
+  display: none;
+}
+
+.lang-icon-wrapper i:empty + i {
+  display: inline-block;
 }

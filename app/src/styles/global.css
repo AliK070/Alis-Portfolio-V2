@@ -102,3 +102,85 @@ main {
   background-color: var(--accent);
   border-radius: 10px;
 }
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+/* Utility Classes */
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out both;
+}
+
+.slide-down {
+  animation: slideDown 0.4s ease-out both;
+}
+
+.slide-up {
+  animation: slideUp 0.4s ease-out both;
+}
+
+/* Staggered Project Card Animation */
+.project-card {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+.project-card:nth-child(1) { animation-delay: 0.1s; }
+.project-card:nth-child(2) { animation-delay: 0.2s; }
+.project-card:nth-child(3) { animation-delay: 0.3s; }
+.project-card:nth-child(4) { animation-delay: 0.4s; }
+.project-card:nth-child(5) { animation-delay: 0.5s; }
+.project-card:nth-child(6) { animation-delay: 0.6s; }
+.project-card:nth-child(7) { animation-delay: 0.7s; }
+.project-card:nth-child(8) { animation-delay: 0.8s; }
+
+/* Navbar and Footer Animations */
+.navbar {
+  animation: slideDown 0.5s ease-out both;
+}
+
+.site-footer {
+  animation: slideUp 0.5s ease-out both;
+}
+
+.page-transition {
+  transition: opacity 0.4s ease;
+  opacity: 1;
+}
+
+.page-transition.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
