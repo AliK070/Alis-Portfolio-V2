@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Education from './pages/Education';
 import Experiences from './pages/Experiences';
 import Projects from './pages/Projects';
+import Footer from './components/Footer';
 import './styles/global.css';
 import './styles/variables.css';
 
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/experiences" element={<Experiences />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

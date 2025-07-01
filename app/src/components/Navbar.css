@@ -1,6 +1,6 @@
 :root {
   --bg-alt: #0c0c0c;
-  --accent: #00ffe7;
+  --accent: #00bbff;
   --text-primary: #e6e6e6;
 }
 
@@ -41,7 +41,7 @@
 /* Logo image styling */
 
 .nav-logo {
-  height: 35px; /* Adjust to fit navbar height */
+  height: 40px; /* Adjust to fit navbar height */
   width: auto;
   display: block;
 }
@@ -127,8 +127,35 @@
 
 @media (max-width: 700px) {
   .nav-links {
-    position: fixed;
+    position: absolute;
     top: 56px;
     left: 0;
     right: 0;
     background: var(--bg-alt);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    z-index: 999;
+    padding: 0;
+  }
+
+  .nav-links.active {
+    max-height: 200px;
+    padding: 1rem 0;
+  }
+
+  .nav-links a {
+    width: 100%;
+    text-align: center;
+    padding: 0.75rem 0;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+}
+

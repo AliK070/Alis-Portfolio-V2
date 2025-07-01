@@ -25,6 +25,13 @@ export default function Home() {
         summary="8+ major projects from React to Arduino, Python, and C#"
         to="/projects"
       />
+      <SectionCard
+        title="Projects"
+        summary="8+ major projects from React to Arduino, Python, and C#"
+        to="/projects"
+      />
+    
     </main>
+    
   );
 }

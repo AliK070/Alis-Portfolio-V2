@@ -15,20 +15,21 @@ export default function Navbar() {
         <Link to="/" className="nav-brand" onClick={closeMenu}>
           <img src={logo} alt="Ali Khan Logo" className="nav-logo" />
         </Link>
-
         <button
-          className={`nav-toggle ${menuOpen ? 'open' : ''}`}
-          onClick={toggleMenu}
-          aria-label="Toggle navigation menu"
-        >
-          <span className="hamburger"></span>
-        </button>
+  className={`nav-toggle ${menuOpen ? 'open' : ''}`}
+  onClick={toggleMenu}
+  aria-label="Toggle navigation menu"
+>
+  <span className="hamburger"></span>
+</button>
 
-        <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
-          <Link to="/education" onClick={closeMenu}>Education</Link>
-          <Link to="/experiences" onClick={closeMenu}>Experiences</Link>
-          <Link to="/projects" onClick={closeMenu}>Projects</Link>
-        </div>
+
+          <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
+         <Link to="/education" onClick={closeMenu}>Education</Link>
+         <Link to="/experiences" onClick={closeMenu}>Experiences</Link>
+         <Link to="/projects" onClick={closeMenu}>Projects</Link>
+      </div>
+
       </div>
     </nav>
   );

@@ -1,6 +1,10 @@
+import React from 'react';
+import BackButton from '../components/BackButton';
+
 export default function Experiences() {
   return (
     <main className="page">
+      <BackButton />
       <h2>Experiences</h2>
 
       <section>

@@ -1,5 +1,7 @@
 import ProjectCard from '../components/ProjectCard';
 import './Projects.css';
+import React from 'react';
+import BackButton from '../components/BackButton';
 
 export default function Projects() {
   const projects = [
@@ -55,6 +57,7 @@ export default function Projects() {
 
   return (
     <main className="page">
+      <BackButton />
       <h2>Projects</h2>
       <div className="projects-grid">
         {projects.map((proj) => (
