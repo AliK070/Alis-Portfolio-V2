@@ -9,6 +9,10 @@ export default function Education() {
       <h2>Education</h2>
 
       <Collapsible title="University of Toronto - Honours Bachelor of Science (HBSc) | 2025–2029">
+      <b>Study:</b>
+        <ul>
+          <li>Computer Science (Specalist)</li>
+        </ul>
       <b>Faculty:</b>
         <ul>
           <li>Faculty of Arts and Science</li>

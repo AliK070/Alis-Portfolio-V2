@@ -27,10 +27,11 @@ export default function Home() {
         to="/projects"
       />
       <SectionCard
-        title="Projects"
-        summary="8+ major projects from React to Arduino, Python, and C#"
-        to="/projects"
+        title="Mini Blogs"
+        summary="A few of my own blogs here and there in relation to tech"
+        to="/blog"
       />
+
     
     </main>
     
