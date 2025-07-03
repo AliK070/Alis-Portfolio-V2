@@ -40,7 +40,7 @@ export default function Projects() {
       description: 'Personal and academic WinForms projects built in C#, ranging from simple app clones to more complex applications and games. A hands-on way to explore core programming concepts and UI design.',
       icon: 'arduino',
       languages: ['csharp', 'dotnetcore'],
-      link: 'https://github.com/yourusername/iot-ble-motor-control',
+      link: 'https://github.com/AliK070/WinForm-Projects',
     },
     {
       title: 'Nano Pong',

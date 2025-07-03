@@ -7,7 +7,7 @@ import {
   faDiscord,
   faGithub,
 } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { fa1, faEnvelope, faV } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -55,6 +55,16 @@ export default function Footer() {
             aria-label="Email"
           >
             <FontAwesomeIcon icon={faEnvelope} />
+          </a>
+
+          <a
+            href="https://alik070.github.io/Alis-Portfolio/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="V1 Portfolio"
+          >
+            <FontAwesomeIcon icon={faV} />
+            <FontAwesomeIcon icon={fa1} />
           </a>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/nav_logo.png';  // adjust path if needed
+import logo from '../assets/Nav_logomain.png';  // adjust path if needed
 import './Navbar.css';
 
 export default function Navbar() {

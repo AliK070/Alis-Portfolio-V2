@@ -30,12 +30,12 @@ export default function Education() {
         <b>Activites and Societies:</b>
         <ul>
           <li>CETA Robotics - Soccer Robot Silver Winners (May 2025)</li>
-          <li>d'Y Badminton Team (Jan - May 2025)</li>
-          <li>STEM Club Vice-President (Jan 2024 - Jun 2025)</li>
-          <li>Debate Club (May 2024 - Jun 2025) </li>
-          <li>DPCDSB and Sheridan Video Game Development Contest (Apr 2024 - May 2024)</li>
-          <li>Panthers eSports Team Financial Director (Feb 2024 - Jun 2025) </li>
-          <li>Music Club Trombonist (Apr 2022 - Jun 2022)</li>
+          <li>d'Y Badminton Team (Jan-May 2025)</li>
+          <li>STEM Club Vice-President (Jan 2024-Jun 2025)</li>
+          <li>Debate Club (May 2024-Jun 2025) </li>
+          <li>DPCDSB and Sheridan Video Game Development Contest (Apr 2024-May 2024)</li>
+          <li>Panthers eSports Team Financial Director (Feb 2024-Jun 2025) </li>
+          <li>Music Club Trombonist (Apr 2022-Jun 2022)</li>
         </ul>
 
         <b>Honors and Awards</b>

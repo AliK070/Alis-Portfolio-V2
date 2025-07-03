@@ -1,2 +1,3 @@
-# Ali's Portfolio in REACT
-Ali's Portfolio but in REACT
+# Ali's Portfolio V2
+
+Here is my portfolio but using more modren technologies.
