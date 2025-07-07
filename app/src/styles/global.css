@@ -15,7 +15,7 @@ body {
   background-color: var(--bg-color);
   color: var(--text-primary);
   font-family: var(--font-family);
-  line-height: 1.6;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
 }
@@ -48,7 +48,7 @@ main {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-    padding: 120px 20px 60px; /* leave this for main content */
+    padding: 80px 20px 60px; /* leave this for main content */
   }
   
   /* Remove padding from navbar-container */

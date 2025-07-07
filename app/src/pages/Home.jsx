@@ -21,6 +21,13 @@ export default function Home() {
         summary="LGT, STEM Club, Developers Club, eSports — community & leadership roles"
         to="/experiences"
       />
+
+      <SectionCard
+        title="Technical Skills"
+        summary="Languages, libraries, tools — all I’ve worked with"
+        to="/technical-skills"
+      />
+
       <SectionCard
         title="Personal Projects"
         summary="8+ major projects from React to Arduino, Python, and C#"

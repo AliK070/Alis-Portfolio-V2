@@ -9,6 +9,7 @@ import Blog from './pages/Blog';
 import BlogPostPage from './pages/BlogPostPage';
 import './styles/global.css';
 import './styles/variables.css';
+import TechnicalSkills from './pages/TechnicalSkill';
 
 export default function App() {
 
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogPostPage />} />
+        <Route path="/technical-skills" element={<TechnicalSkills />} />
       </Routes>
       <Footer />
     </Router>

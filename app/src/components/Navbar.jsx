@@ -27,8 +27,10 @@ export default function Navbar() {
           <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
          <Link to="/education" onClick={closeMenu}>Education</Link>
          <Link to="/experiences" onClick={closeMenu}>Experiences</Link>
+         <Link to="/technical-skills" onClick={closeMenu}>Technical Skills</Link>
          <Link to="/projects" onClick={closeMenu}>Projects</Link>
          <Link to="/blog" onClick={closeMenu}>Blog</Link>
+
       </div>
 
       </div>
