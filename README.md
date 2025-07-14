@@ -19,13 +19,7 @@ Unlike my last portfolio, I focused more on the mobile layout and implemented qu
 
 Here is the color pallete I aimed for while redesigning my portfolio: 
 
-| Color Name       | Hex Code   | Preview                             |
-|------------------|------------|--------------------------------------|
-| Smoky White      | `#f3eef1`  | <div style="width: 50px; height: 20px; background-color: #f3eef1;"></div> |
-| Primary Blue     | `#be95be`  | <div style="width: 50px; height: 20px; background-color: #17b7f2;"></div> |
-| Material Black   | `#0c0c0c`  | <div style="width: 50px; height: 20px; background-color: #0c0c0c;"></div> |
-| Accent Black     | `#111111`  | <div style="width: 50px; height: 20px; background-color: #111111;"></div> |
-| Accent Gray      | `#504f5e`  | <div style="width: 50px; height: 20px; background-color: #504f5e;"></div> |
+![Color Palette](/app/src/assets/color_palette.svg)
 
 # All of the pages:
 
