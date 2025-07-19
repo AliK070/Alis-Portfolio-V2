@@ -11,7 +11,7 @@ export default function Projects() {
       description:
         'Modern personal portfolio built with React and Vite, featuring a document-style layout with expandable sections for About Me, Education, Experiences, and Projects. Designed with a clean, minimal aesthetic and responsive card-based navigation.',
       languages: ['react', 'vitejs', 'javascript', 'html5', 'css3'],
-      link: 'https://github.com/AliK070/ESP32-WiFI-Controlled-Car',
+      link: 'https://github.com/AliK070/Alis-Portfolio-V2',
     },
 
     {
@@ -24,7 +24,7 @@ export default function Projects() {
     },
     {
       title: 'Motor Control with OpenCV',
-      description: 'Controlled motor speed using hand tracking with OpenCV, measuring the distance between thumb and pinky tips. Used Python with PyFirmata2 to send PWM signals to an Arduino, adjusting motor power proportionally to hand movement.',
+      description: 'Controlled motor speed (PWM) using hand tracking with OpenCV, measuring the distance between thumb and pinky tips. Used Python with PyFirmata2 to send PWM signals to an Arduino, adjusting motor power proportionally to hand movement.',
       languages: ['arduino','python', 'opencv'],
       link: 'https://github.com/AliK070/Motor-Control-With-OpenCV',
     },
