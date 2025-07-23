@@ -7,6 +7,14 @@ export default function Projects() {
   const projects = [
 
     {
+      title: 'Clash Royal Stats App',
+      description:
+        'The Clash Royale Stats App is a React-based web application designed to provide detailed statistics and information about players in Clash Royale. Users can search for players by their unique tag, view their stats, favorite cards, primary deck, upcoming chests, and recent battles. ',
+      languages: ['react', 'vitejs', 'javascript', 'html5', 'css3'],
+      link: 'https://github.com/AliK070/Clash-Royale-Stats-App',
+    },
+
+    {
       title: 'Personal Portfolio',
       description:
         'Modern personal portfolio built with React and Vite, featuring a document-style layout with expandable sections for About Me, Education, Experiences, and Projects. Designed with a clean, minimal aesthetic and responsive card-based navigation.',
