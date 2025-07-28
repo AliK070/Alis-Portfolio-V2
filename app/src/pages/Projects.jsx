@@ -6,6 +6,16 @@ import BackButton from '../components/BackButton';
 export default function Projects() {
   const projects = [
 
+
+    {
+      title: 'Smart Fitness Tracker using OpenCV + MediaPipe',
+      description:
+        'This tracker uses computer vision (OpenCV) and pose detection (via MediaPipe) to evaluate common workouts: curls, push-ups, and squats. It requires complex understanding of programming, computation, and theory. The GUI is made with Tkinter.',
+      languages: ['opencv', 'python', 'numpy'],
+      link: 'https://github.com/AliK070/Fitness_Pose_Tracking-Using_OpenCV?tab=readme-ov-file',
+    },
+
+
     {
       title: 'Clash Royal Stats App',
       description:
